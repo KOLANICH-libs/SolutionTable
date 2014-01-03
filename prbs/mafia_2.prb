@@ -1,0 +1,20 @@
+[DESCRIPTION]
+TEXT1=Mafia game example
+TEXT2=
+TEXT3=1. Maniac has almost killed Paul, but doc has saved Paul's him!
+TEXT4=2. Maniac has killed Vlad and burned his flat.
+TEXT5=3. The psycho had a vision about Vlad.
+TEXT6=4. The psycho had a vision about Nick.
+TEXT7=5. Maniac has killed Nick and burned his flat.
+VAR1=Nickname,Paul,Vlad,Nick,Peter
+VAR2=Role,maniac,maf,doc,psy
+CONNECTWORD1=Nickname, is , isn't ,Role
+CONNECTWORD2=Role, is , isn't ,Nickname
+CONNECTWORD3=,,,
+[ORIG]
+STMT1=1,doc,Paul,False,X
+STMT2=1,maniac,Paul,False,X
+STMT3=2,maniac,Vlad,False,X
+STMT4=3,psy,Vlad,False,X
+STMT5=4,psy,Nick,False,X
+STMT6=5,maniac,Nick,False,X
