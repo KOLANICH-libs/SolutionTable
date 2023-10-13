@@ -2,6 +2,9 @@ import numpy as np
 import scipy as sp
 import scipy.linalg
 from matplotlib import pyplot as plt
+from warnings import warn
+
+warn("We have moved from M$ GitHub to https://codeberg.org/KOLANICH-libs/SolutionTable.py, read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
 
 from math import isclose
 
